@@ -21,7 +21,7 @@ Vamos exercitar todo o conteúdo apresentado no módulo:
 
 Você pode [acessar o código fonte do projeto Desafio Sintaxe codificando](https://github.com/090Raphael/desafio-conta-bancaria-DIO/blob/main/Conta%20Banco/src/ContaTerminal.java)
 
-Você pode [acessar o código fonte do projeto Desafio Controle Fluxo](https://github.com/090Raphael/Desafios-DIO/tree/main/Desafio%20Controle%20Fluxo/src)
+Você pode [acessar o código fonte do projeto Desafio Controle Fluxo](https://github.com/090Raphael/Desafios-DIO/tree/main/Desafio%20Controle%20Fluxo)
 
 <h2>Desenvolvedor</h2>
 
