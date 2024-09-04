@@ -1,3 +1,6 @@
-public class AparelhoTelefônico {
-    
+public interface AparelhoTelefonico {
+   
+    void ligar(String numero);
+    void atender();
+    void iniciarCorreioVoz();
 }
