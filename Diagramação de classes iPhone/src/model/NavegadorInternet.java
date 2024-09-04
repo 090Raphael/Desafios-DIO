@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public interface NavegadorInternet {
     
     public void exibirPagina(String url) {

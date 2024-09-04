@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public interface ReprodutorMusical {
     public void tocar() {
         System.out.println("Música tocando...");
