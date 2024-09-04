@@ -1,6 +1,6 @@
+package src.model;
 import java.util.Scanner;
-
-public interface ReprodutorMusical {
+public class ReprodutorMusical {
     public void tocar() {
         System.out.println("Música tocando...");
     }
@@ -11,6 +11,5 @@ public interface ReprodutorMusical {
 
     public void selecionarMusica(String musica) {
         System.out.println("Selecionando a música: " + musica);
-    }  
+    }
 }
-

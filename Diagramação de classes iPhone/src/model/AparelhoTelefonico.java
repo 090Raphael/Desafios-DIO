@@ -1,8 +1,7 @@
 package src.model;
 import java.util.Scanner;
 
-public class Iphone {
-
+public class AparelhoTelefonico {
     public void ligar(String numero) {
         System.out.println("Ligando para: " + numero);
     }
@@ -14,5 +13,4 @@ public class Iphone {
     public void iniciarCorreioVoz() {
         System.out.println("Iniciando correio de voz...");
     }
-    
 }

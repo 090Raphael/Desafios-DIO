@@ -1,6 +1,6 @@
+package src.model;
 import java.util.Scanner;
-
-public interface NavegadorInternet {
+public class NavegadorInternet {
     
     public void exibirPagina(String url) {
         System.out.println("Exibindo página: " + url);
@@ -13,5 +13,4 @@ public interface NavegadorInternet {
     public void atualizarPagina() {
         System.out.println("Página atualizada.");
     }
-    
 }
