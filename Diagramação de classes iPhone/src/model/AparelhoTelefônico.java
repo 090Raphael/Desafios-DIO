@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public interface AparelhoTelefonico {
     public void ligar(String numero) { /* implementação */ } 

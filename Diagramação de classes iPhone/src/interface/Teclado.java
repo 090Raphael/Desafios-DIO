@@ -1,11 +1,13 @@
-public interface Teclado {
-    // Digita um caractere
-    void digitar(char caractere);
 
-    // Apaga o último caractere digitado
-    void apagar();
+public class Teclado {
+    private Scanner scanner;
 
-    // Alterna o idioma do teclado
-    void alternarIdioma(String idioma);
+    public Keyboard() {
+        scanner = new Scanner(System.in);
+    }
+
+    public String digitar() {
+        System.out.print("Digite o texto: ");
+        return scanner.nextLine();
+    }
 }
-
