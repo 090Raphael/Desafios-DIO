@@ -1,18 +1,61 @@
-## Getting Started
+# DIO - Trilha Java Básico
+www.dio.me
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+#### Autores
+- [Gleyson Sampaio](https://github.com/glysns)
 
-## Folder Structure
+## Modelagem UML
 
-The workspace contains two folders by default, where:
+1 Identificação das Classes e Interfaces
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Com base nas funcionalidades descritas, você pode criar três interfaces e uma classe concreta para representar o iPhone:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Reprodutor Musical: Representa a funcionalidade de reprodutor de música.
+Aparelho Telefônico: Representa a funcionalidade de telefone.
+Navegador na Internet: Representa a funcionalidade de navegador web.
+iPhone: Implementa as interfaces de acordo com suas funcionalidades.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 1.2 Diagrama de Classes UML
 
-## Dependency Management
+Aqui está um exemplo de como você pode criar o diagrama UML:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Interface ReprodutorMusical
+
+Métodos:
++tocar() : void
++pausar() : void
++selecionarMusica(musica: String) : void
+Interface AparelhoTelefonico
+
+Métodos:
++ligar(numero: String) : void
++atender() : void
++iniciarCorreioVoz() : void
+Interface NavegadorInternet
+
+Métodos:
+````+exibirPagina(url: String) : void
++adicionarNovaAba() : void
++atualizarPagina() : void
+Classe iPhone 
+```` 
+
+Implementa:
+ReprodutorMusical
+AparelhoTelefonico
+NavegadorInternet
+Métodos:
+Implementa todos os métodos das interfaces.
+
+
+
+
+
+<h2>Ferramentas utilizadas</h2>
+
+- ``Java``
+- ``Visual Code Studio``
+
+<h2>Desenvolvedor</h2>
+
+[<img src="https://avatars.githubusercontent.com/u/159970639?v=4" width=115><br><sub>Raphael Couto</sub>](https://github.com/090Raphael)
