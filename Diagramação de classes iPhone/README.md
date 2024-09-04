@@ -1,56 +1,84 @@
 # DIO - Trilha Java Básico
 www.dio.me
+# [DIO](www.dio.me) - Trilha Java Básico
 
-#### Autores
-- [Gleyson Sampaio](https://github.com/glysns)
+## POO - Desafio
 
-## Modelagem UML
+### Modelagem e Diagramação de um Componente iPhone
 
-1 Identificação das Classes e Interfaces
+Neste desafio, você deverá modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-Com base nas funcionalidades descritas, você pode criar três interfaces e uma classe concreta para representar o iPhone:
+#### Contexto
+Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces no formato de arquivos `.java`.
 
-Reprodutor Musical: Representa a funcionalidade de reprodutor de música.
-Aparelho Telefônico: Representa a funcionalidade de telefone.
-Navegador na Internet: Representa a funcionalidade de navegador web.
-iPhone: Implementa as interfaces de acordo com suas funcionalidades.
+[Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
+- Minutos relevantes: 00:15 até 00:55
 
-## 1.2 Diagrama de Classes UML
+#### Funcionalidades a Modelar
+1. **Reprodutor Musical**
+    - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
+2. **Aparelho Telefônico**
+    - Métodos: `ligar(String numero)`, `atender()`, `iniciarCorreioVoz()`
+3. **Navegador na Internet**
+    - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
 
-Aqui está um exemplo de como você pode criar o diagrama UML:
+### Objetivo
+1. Criar um diagrama UML que represente as funcionalidades descritas acima.
+2. Implementar as classes e interfaces correspondentes em Java (Opcional).
 
-Interface ReprodutorMusical
+### Instruções
+1. Assista ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
+2. Utilize uma ferramenta UML de sua preferência para criar o diagrama das classes e interfaces. Você pode utilizar o modelo acima (criado na sintaxe [Mermaid](https://mermaid.js.org/)), uma alternativa open-source e compatível com arquivos Markdown como este.
+3. Opcionalmente, caso esteja cheio(a) de confiança, pode implementar as classes Java representadas em seu diagrama UML.
+4. Submeta seu repositório GitHub conforme as orientações da plataforma DIO.
 
-Métodos:
-+tocar() : void
-+pausar() : void
-+selecionarMusica(musica: String) : void
-Interface AparelhoTelefonico
+### Resultado do Diagrama UML sugerido no desafio (Mermaid)
 
-Métodos:
-+ligar(numero: String) : void
-+atender() : void
-+iniciarCorreioVoz() : void
-Interface NavegadorInternet
+```mermaid
+classDiagram
 
-Métodos:
-````+exibirPagina(url: String) : void
-+adicionarNovaAba() : void
-+atualizarPagina() : void
-Classe iPhone 
-```` 
+     class Teclado{
+        +digitarValor()
+     }
+    
+     Teclado <-- iPod
+     Teclado <-- Phone
+     Teclado <-- Navegador
+        
+    class iPod {
+        -musica:String
+        -artista:String
+        
+        +tocarMusica(musica)
+        +selecionarArtista(artista)
+        +selecionarMusica(musica)
+        +pausarMusica(musica)
+    }
 
-Implementa:
-ReprodutorMusical
-AparelhoTelefonico
-NavegadorInternet
-Métodos:
-Implementa todos os métodos das interfaces.
+    class Phone {
+        -numeroDoTelefone:String
+        
+        +realizarChamada(numeroDoTelefone)
+        +atenderChamada()
+        +verificarCorreioDeVoz()
+        +enviarSms(numeroDoTelefone)
+    }
 
+    class Navegador {
+        -url:String
+        
+        +acessarSite(url)
+        +atualizarSite()
+        +adicionarAba()
+    }
 
+    class iPhone {
+    }
 
-
-
+    iPhone --> iPod
+    iPhone --> Phone
+    iPhone --> Navegador
+   ```
 <h2>Ferramentas utilizadas</h2>
 
 - ``Java``
