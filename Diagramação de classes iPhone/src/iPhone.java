@@ -1,8 +1,3 @@
-package src.Interface;
-import src.interface.AparelhoTelefonico;
-import src.interface.ReprodutorMusical;
-import src.interface.NavegadorInternet;
-
 
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 
