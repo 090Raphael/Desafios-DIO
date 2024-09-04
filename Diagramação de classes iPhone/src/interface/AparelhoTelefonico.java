@@ -1,4 +1,4 @@
-
+import scanne
  
 // Interface para Aparelho Telefônico
 public interface AparelhoTelefonico {
