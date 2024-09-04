@@ -1,6 +1,6 @@
 
 public interface AparelhoTelefonico {
-    void ligar(String numero);
-    void atender();
-    void iniciarCorreioVoz();
+    public void ligar(String numero) { /* implementação */ } 
+    public void atender() { /* implementação */ }
+    public void iniciarCorreioVoz() { /* implementação */ }
 }
