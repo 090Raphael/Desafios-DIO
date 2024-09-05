@@ -59,5 +59,16 @@ classDiagram
 
 ```bash
 https://github.com/glysns/trilha-java-basico/desafios/poo/README.md
-```` 
+````
+
+<h2>Ferramentas utilizadas</h2>
+
+- ``Java``
+- ``Visual Code Studio``
+
+<h2>Desenvolvedor</h2>
+
+[<img src="https://avatars.githubusercontent.com/u/159970639?v=4" width=115><br><sub>Raphael Couto</sub>](https://github.com/090Raphael)
+
+
 
