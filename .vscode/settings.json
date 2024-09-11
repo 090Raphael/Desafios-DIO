@@ -1,6 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "Conta Banco/src",
-        "BancoDigital/src"
-    ]
+        "BancoDigital\\src",
+        "Conta Banco\\src"
+    ],
+    "java.project.referencedLibraries": [
+        "d:\\Documentos de programação (ESTUDOS)\\Estudos Programação\\Entrega de Projetos (JAVA)\\Desafios-DIO\\lib\\junit-platform-console-standalone-1.11.0.jar"
+    ],
+    "java.format.settings.url": ".vscode/java-formatter.xml"
 }
