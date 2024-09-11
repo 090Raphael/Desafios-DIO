@@ -2,10 +2,11 @@
     "java.project.sourcePaths": [
         "Desafio abstrair bootcamp/src",
         "Desafio POO iPhone/src/sistema",
+        "Desafio POO iPhone/src",
         "Desafio Controle Fluxo/src",
         "Conta Banco/src",
         "BancoDigital/src",
-        "Desafio POO iPhone/src"
+        "Desafios Entregues/Conta Banco/src"
     ],
     "java.project.referencedLibraries": [
         "d:\\Documentos de programação (ESTUDOS)\\Estudos Programação\\Entrega de Projetos (JAVA)\\Desafios-DIO\\lib\\junit-platform-console-standalone-1.11.0.jar"
