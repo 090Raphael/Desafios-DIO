@@ -1,4 +1,5 @@
-public class Main {
+
+public class main {
     public static void main(String[] args) {
         Curso cursoJava = new Curso();
         cursoJava.setTitulo("Curso de Java");
