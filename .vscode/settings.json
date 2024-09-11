@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Desafio POO Iphone/src/sistema",
-        "Conta Banco/src"
+        "Conta Banco/src",
+        "BancoDigital/src"
     ]
 }
