@@ -1,10 +1,10 @@
 package app;
 
 public abstract class Conta {
-    private int agencia;
-    private int numero;
+    private final int agencia;
+    private final int numero;
     private double saldo;
-    private Cliente cliente;
+    private final Cliente cliente;
 
     public Conta(int agencia, int numero, Cliente cliente) {
         this.agencia = agencia;
