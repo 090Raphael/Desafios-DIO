@@ -1,9 +1,6 @@
-import java.time.LocalDate;
+package desafio.main;
 
-import desafio.Bootcamp;
-import desafio.Curso;
-import desafio.Dev;
-import desafio.Mentoria;
+import java.time.LocalDate;
 
 
 public class Main {
