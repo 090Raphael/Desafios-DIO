@@ -2,13 +2,15 @@ package desafio.main;
 
 import java.time.LocalDate;
 
-import desafio.bootcamp;
-import desafio.conteudo;
-import desafio.curso;
-import desafio.dev;
-import desafio.Mentoria;
+import desafioExtra.Bootcamp;
+import desafioExtra.Curso;
+import desafioExtra.Dev;
+import desafioExtra.Mentoria;
 
 public class Main {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Curso cursoJava = new Curso();
         cursoJava.setTitulo("Curso de Java");

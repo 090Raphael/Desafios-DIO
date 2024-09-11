@@ -1,4 +1,4 @@
-package desafio;
+package desafioExtra;
 
 public class Curso extends Conteudo {
     private int cargaHoraria;
