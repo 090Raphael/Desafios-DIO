@@ -1,10 +1,5 @@
-package src.main;
-import java.time.LocalDate;
 
-import src.Bootcamp;
-import src.Curso;
-import src.Dev;
-import src.Mentoria;
+import java.time.LocalDate;
 
 public class Main {
     /**
