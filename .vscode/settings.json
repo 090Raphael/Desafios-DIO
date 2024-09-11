@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "BancoDigital\\src",
-        "Conta Banco\\src",
-        "Desafio abstrair bootcamp\\src"
+        "Desafio abstrair bootcamp/src",
+        "Conta Banco/src",
+        "BancoDigital/src",
+        "Desafio Controle Fluxo/src"
     ],
     "java.project.referencedLibraries": [
         "d:\\Documentos de programação (ESTUDOS)\\Estudos Programação\\Entrega de Projetos (JAVA)\\Desafios-DIO\\lib\\junit-platform-console-standalone-1.11.0.jar"
