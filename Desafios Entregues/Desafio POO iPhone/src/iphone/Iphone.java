@@ -1,5 +1,4 @@
-package sistema.iphone;
-
+package iphone;
 public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
 
     public void tocar() {

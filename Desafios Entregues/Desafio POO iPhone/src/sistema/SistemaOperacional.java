@@ -1,13 +1,12 @@
-package sistema;
 
+
+import iphone.Iphone;
 import java.util.Scanner;
-import sistema.iphone.Iphone;
+
 public class SistemaOperacional {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
-        Iphone IPhone = new Iphone();
+        Iphone iPhone = new Iphone(); // Corrija a variável para iniciar com letra minúscula
         int opcao = 0;
 
         String aplicativo = """
@@ -24,13 +23,13 @@ public class SistemaOperacional {
 
             switch (opcao) {
                 case 1:
-                    menuReprodutorMusical(IPhone, scanner);
+                    menuReprodutorMusical(iPhone, scanner);
                     break;
                 case 2:
-                    menuAparelhoTelefonico(IPhone, scanner);
+                    menuAparelhoTelefonico(iPhone, scanner);
                     break;
                 case 3:
-                    menuNavegadorNaInternet(IPhone, scanner);
+                    menuNavegadorNaInternet(iPhone, scanner);
                     break;
                 case 4:
                     System.out.println("Encerrando o aparelho");
@@ -42,7 +41,7 @@ public class SistemaOperacional {
         }
     }
 
-    private static void menuReprodutorMusical(Iphone IPhone, Scanner scanner) {
+    private static void menuReprodutorMusical(Iphone iPhone, Scanner scanner) {
         int opcao = 0;
 
         String reprodutorMusical = """
@@ -59,13 +58,13 @@ public class SistemaOperacional {
             scanner.nextLine(); 
 
             if(opcao == 1) {
-                IPhone.tocar();
-            }else if(opcao == 2) {
-                IPhone.pausar();
-            }else if(opcao == 3) {
+                iPhone.tocar();
+            } else if(opcao == 2) {
+                iPhone.pausar();
+            } else if(opcao == 3) {
                 System.out.print("Digite o nome da música: ");
                 String musica = scanner.nextLine();
-                IPhone.selecionarMusica(musica);
+                iPhone.selecionarMusica(musica);
             } else if(opcao == 4) {
                 System.out.println("Voltando ao menu principal");
             } else {
@@ -74,7 +73,7 @@ public class SistemaOperacional {
         }
     }
 
-    private static void menuAparelhoTelefonico(Iphone IPhone, Scanner scanner) {
+    private static void menuAparelhoTelefonico(Iphone iPhone, Scanner scanner) {
         int opcao = 0;
 
         String aparelhoTelefonico = """
@@ -93,11 +92,11 @@ public class SistemaOperacional {
             if(opcao == 1) {
                 System.out.print("Digite o número para ligar: ");
                 String numero = scanner.nextLine();
-                IPhone.ligar(numero);
-            }else if(opcao == 2) {
-                IPhone.atender();
-            }else if(opcao == 3) {
-                IPhone.iniciarCorreioVoz();
+                iPhone.ligar(numero);
+            } else if(opcao == 2) {
+                iPhone.atender();
+            } else if(opcao == 3) {
+                iPhone.iniciarCorreioVoz();
             } else if(opcao == 4) {
                 System.out.println("Voltando ao menu principal");
             } else {
@@ -106,7 +105,7 @@ public class SistemaOperacional {
         }
     }
 
-    private static void menuNavegadorNaInternet(Iphone IPhone, Scanner scanner) {
+    private static void menuNavegadorNaInternet(Iphone iPhone, Scanner scanner) {
         int opcao = 0;
 
         String navegadorInternet = """
@@ -125,11 +124,11 @@ public class SistemaOperacional {
             if(opcao == 1) {
                 System.out.print("Digite a URL: ");
                 String url = scanner.nextLine();
-                IPhone.exibirPagina(url);
-            }else if(opcao == 2) {
-                IPhone.adicionarNovaAba();
-            }else if(opcao == 3) {
-                IPhone.adicionarNovaAba();
+                iPhone.exibirPagina(url);
+            } else if(opcao == 2) {
+                iPhone.adicionarNovaAba();
+            } else if(opcao == 3) {
+                iPhone.atualizarPagina();
             } else if(opcao == 4) {
                 System.out.println("Voltando ao menu principal");
             } else {
