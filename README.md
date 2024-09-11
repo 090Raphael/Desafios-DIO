@@ -23,9 +23,9 @@ Vamos exercitar todo o conteúdo apresentado no módulo:
 
 Você pode [acessar o código fonte do projeto Desafio Sintaxe codificando](https://github.com/090Raphael/Desafios-DIO/tree/main/Conta%20Banco)
 
-Você pode [acessar o código fonte do projeto Desafio Controle Fluxo](https://github.com/090Raphael/Desafios-DIO/tree/main/Desafio%20Controle%20Fluxo)
+Você pode [acessar o código fonte do projeto Desafio Controle Fluxo](https://github.com/090Raphael/Desafios-abstrair-bootcamp/tree/main/Desafios%20Entregues/Desafio%20Controle%20Fluxo)
 
-Você pode [acessar o código fonte do projeto Desafio POO iPhone](https://github.com/090Raphael/Desafios-DIO/tree/main/Desafio%20POO%20iPhone)
+Você pode [acessar o código fonte do projeto Desafio POO iPhone](https://github.com/090Raphael/Desafios-abstrair-bootcamp/tree/main/Desafios%20Entregues/Desafio%20POO%20iPhone)
 
 Você pode [acessar o código fonte do projeto Desafio 
 Criando um Banco Digital com Java e Orientação a Objetos](https://github.com/090Raphael/Desafios-DIO/tree/main/BancoDigital)
