@@ -7,8 +7,13 @@ public class Main {
     public static void main(String[] args) {
         Curso cursoJava = new Curso();
         cursoJava.setTitulo("Curso de Java");
-        cursoJava.setDescricao("Aprenda Java na prática");
+        cursoJava.setDescricao("Descrição do Curso Java");
         cursoJava.setCargaHoraria(8);
+
+        Curso cursoJava = new Curso();
+        cursoJava.setTitulo("Curso JS");
+        cursoJava.setDescricao("Descrição do Curso JS");
+        cursoJava.setCargaHoraria(3);
 
         Mentoria mentoriaJava = new Mentoria();
         mentoriaJava.setTitulo("Mentoria sobre Java");
