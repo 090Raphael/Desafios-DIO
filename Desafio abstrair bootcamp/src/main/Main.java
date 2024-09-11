@@ -1,21 +1,20 @@
 
+/* CONTEM ERROS  */ 
+
 import java.time.LocalDate;
 
 public class Main {
     /**
+     * @param <Bootcamp>
+     * @param <Mentoria>
+     * @param <Curso>
      * @param args
      */
-    public static void main(String[] args) {
+    public static <Bootcamp, Mentoria, Curso> void main(String[] args) {
         Curso cursoJava = new Curso();
         cursoJava.setTitulo("Curso de Java");
         cursoJava.setDescricao("Descrição do Curso Java");
         cursoJava.setCargaHoraria(8);
-
-        Curso cursoJava2 = new Curso();
-        Curso cursoJs;
-        cursoJs.setTitulo("Curso JS");
-        cursoJs.setDescricao("Descrição do Curso JS");
-        cursoJs.setCargaHoraria(3);
 
         Mentoria mentoriaJava = new Mentoria();
         mentoriaJava.setTitulo("Mentoria sobre Java");
@@ -26,7 +25,6 @@ public class Main {
         bootcamp.setNome("Bootcamp Java Developer");
         bootcamp.setDescricao("Bootcamp para aprender Java do zero");
         bootcamp.getConteudos().add(cursoJava);
-        bootcamp.getConteudos().add(cursoJs);
         bootcamp.getConteudos().add(mentoriaJava);
 
         Dev devRaphael = new Dev();
@@ -38,16 +36,7 @@ public class Main {
         System.out.println("XP: " + devRaphael.calcularTotalXp());
 
         System.out.println("--------");
-
-        Dev devJheni = new Dev();
-        devJheni.setNome("Jheni");
-        devJheni.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Jheni: " + devJheni.getConteudosInscritos());
-        devJheni.progredir();
-        System.out.println("-");
-        System.out.println("Conteúdos Inscritos Jheni: " + devJheni.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Jheni: " + devJheni.getConteudosConcluidos());
-        System.out.println("XP: " + devJheni.calcularTotalXp());
+     
 
     }
 }
