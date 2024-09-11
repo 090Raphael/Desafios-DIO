@@ -1,3 +1,8 @@
+package desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Curso extends Conteudo {
     private int cargaHoraria;
 
