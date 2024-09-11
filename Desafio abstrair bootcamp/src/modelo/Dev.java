@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,5 +29,13 @@ public class Dev {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public List<Conteudo> getConteudosInscritos() {
+        return conteudosInscritos;
+    }
+
+    public List<Conteudo> getConteudosConcluidos() {
+        return conteudosConcluidos;
     }
 }

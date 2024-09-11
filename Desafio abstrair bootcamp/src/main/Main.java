@@ -1,16 +1,13 @@
-
-/* CONTEM ERROS DE IMPORTAÇÃO */ 
+package main;
 
 import java.time.LocalDate;
+import modelo.Bootcamp;
+import modelo.Curso;
+import modelo.Dev;
+import modelo.Mentoria;
 
 public class Main {
-    /**
-     * @param <Bootcamp>
-     * @param <Mentoria>
-     * @param <Curso>
-     * @param args
-     */
-    public static <Bootcamp, Mentoria, Curso> void main(String[] args) {
+    public static void main(String[] args) {
         Curso cursoJava = new Curso();
         cursoJava.setTitulo("Curso de Java");
         cursoJava.setDescricao("Descrição do Curso Java");
@@ -36,7 +33,5 @@ public class Main {
         System.out.println("XP: " + devRaphael.calcularTotalXp());
 
         System.out.println("--------");
-     
-
     }
 }
