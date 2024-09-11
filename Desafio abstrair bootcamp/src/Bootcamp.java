@@ -1,9 +1,7 @@
 package desafio;
 
-import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Bootcamp {
     private String nome;

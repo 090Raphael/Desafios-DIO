@@ -2,6 +2,11 @@ package desafio.main;
 
 import java.time.LocalDate;
 
+import desafio.bootcamp;
+import desafio.conteudo;
+import desafio.curso;
+import desafio.dev;
+import desafio.Mentoria;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +15,7 @@ public class Main {
         cursoJava.setDescricao("Descrição do Curso Java");
         cursoJava.setCargaHoraria(8);
 
-        Curso cursoJava = new Curso();
+        Curso cursoJava2 = new Curso();
         cursoJava.setTitulo("Curso JS");
         cursoJava.setDescricao("Descrição do Curso JS");
         cursoJava.setCargaHoraria(3);
