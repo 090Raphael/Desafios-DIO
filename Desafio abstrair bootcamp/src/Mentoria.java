@@ -1,5 +1,3 @@
-package desafioExtra;
-
 import java.time.LocalDate;
 
 public class Mentoria extends Conteudo {

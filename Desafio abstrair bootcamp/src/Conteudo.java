@@ -1,8 +1,3 @@
-package desafioExtra;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public abstract class Conteudo {
     protected static final double XP_PADRAO = 10d;
     
