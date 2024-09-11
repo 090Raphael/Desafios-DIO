@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 
 import desafio.Bootcamp;
-import desafio.Conteudo;
 import desafio.Curso;
 import desafio.Dev;
 import desafio.Mentoria;
