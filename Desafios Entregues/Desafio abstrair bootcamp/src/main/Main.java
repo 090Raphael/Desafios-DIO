@@ -17,13 +17,13 @@ public class Main {
 
         Curso cursojs = new Curso();
         cursojs.setTitulo("Curso de Js");
-        /* cursojs.setDescricao("Descrição do Curso Js");*/
+        /* cursojs.setDescricao("Descrição do Curso Js"); add novo curso*/
         cursojs.setCargaHoraria(3);
 
         Mentoria mentoriaJava = new Mentoria();
         mentoriaJava.setTitulo("Mentoria sobre Java");
         mentoriaJava.setDescricao("Discussão sobre boas práticas em Java");
-       /* mentoriaJava.setDescricao("Discussão sobre boas práticas em Js");*/
+       /* mentoriaJava.setDescricao("Discussão sobre boas práticas em Js"); add novo curso*/
         mentoriaJava.setData(LocalDate.now());
 
         Bootcamp bootcamp = new Bootcamp();
