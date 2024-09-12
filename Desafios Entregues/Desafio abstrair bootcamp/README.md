@@ -51,4 +51,12 @@ Polimorfismo é como se fosse uma brincadeira de trocar de roupa. Sabe quando vo
 
 ---
 
-##### Em resumo o paradigma de programação orientada a objetos se baseia em criar objetos com suas próprias características e ações, e combiná-los para criar programas complexos. Isso torna a programação mais organizada e fácil de se entender, permitindo uma maior expressividade na representação de conceitos e estruturas complexas.
+
+<h2>Ferramentas utilizadas</h2>
+
+- ``Java``
+- ``Visual Code Studio``
+
+<h2>Desenvolvedor</h2>
+
+[<img src="https://avatars.githubusercontent.com/u/159970639?v=4" width=115><br><sub>Raphael Couto</sub>](https://github.com/090Raphael)
