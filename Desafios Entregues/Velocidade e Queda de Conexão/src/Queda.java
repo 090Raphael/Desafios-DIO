@@ -1,4 +1,5 @@
-package queda;
+
+
 import java.util.Scanner;
 
 public class Queda {

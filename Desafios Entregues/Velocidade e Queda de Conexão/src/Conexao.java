@@ -1,7 +1,8 @@
-package conexao;
+
+
 import java.util.Scanner;
 
-public class ConexaoTeste {
+public class Conexao {
     // Função para calcular a velocidade média de conexão de internet
     public static double calcularVelocidadeMedia(String[] velocidades) {
         double total = 0;
