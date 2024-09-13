@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "Desafios Entregues/Velocidade e Queda de Conexão/src/main",
         "Desafios Entregues/Desafio abstrair bootcamp/src/main",
+        "Desafios Entregues/Desafio abstrair bootcamp/src",
         "Desafios Entregues/Conta Banco/src",
-        "Desafios Entregues/Desafio abstrair bootcamp/src"
+        "Desafios Entregues/Velocidade e Queda de Conexão/src"
     ],
     "java.project.referencedLibraries": [
         "d:\\Documentos de programação (ESTUDOS)\\Estudos Programação\\Entrega de Projetos (JAVA)\\Desafios-DIO\\lib\\junit-platform-console-standalone-1.11.0.jar"
